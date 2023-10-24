@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menulogo img {
+    height: 14px;
+    width: 22px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menutext a {
+    color: black;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    padding: 0px 60px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.logo {
+    transform: translate(520px);
+}
+
+.logo img {
+    height: 70px;
+    width: 70px;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("./audiimg/audi_bg.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 30px 750px 0px 40px;
+}
+
+.hero h1 {
+    font-size: 42px;
+}
+
+.hero p {
+    font-size: 20px;
+    padding: 20px 174px 0px 0px;
+}
+
+.button button {
+    border: 1px solid white;
+    height: 55px;
+    padding: 0px 35px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.btn1 {
+    background-color: white;
+
+}
+
+.btn2 {
+    background-color: transparent;
+    color: white;
+}
+
+.btn1:hover {
+    background-color: rgba(128, 128, 128, 0.747);
+    border-color: rgba(128, 128, 128, 0.747);
+}
+
+.btn2:hover {
+    color: rgba(128, 128, 128, 0.747);
+    border-color: rgba(128, 128, 128, 0.747);
+}
+
+#modeltitle {
+    margin: 18px 30px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.modelimg {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+
+.cars:hover {
+    transform: scale(1.05);
+    transition: .3s;
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(100, 99, 99);
+}
+
+.vs {
+    display: flex;
+    align-items: center;
+}
+
+.vsdis {
+    font-size: 22px;
+}
+
+.vsdis button {
+    border: 1px solid black;
+    background-color: white;
+    font-size: 18px;
+    padding: 18px 65px;
+    margin-top: 20px;
+}
+
+.vsdis button:hover {
+    color: rgb(104, 101, 101);
+    border-color: rgb(104, 101, 101);
+}
+
+.vsimg img {
+    height: 621px;
+    width: 621px;
+    margin: 90px 30px 10px 50px;
+
+}
+
+.modelimg img {
+    height: 94px;
+    width: 229px;
+}
+
+.etron {
+    background-image: url("./audiimg/E-tronHub-2878X3500.jpg");
+    background-position: center;
+    height: 180vh;
+    margin-top: 50px;
+}
+
+.etroninfo {
+    border: 1px solid white;
+    width: 655px;
+    background-color: white;
+    padding: 50px;
+    position: relative;
+    top: 260px;
+    left: 55px;
+}
+.etrondis p {
+    margin: 20px 0px;
+}
+
+#btn1 {
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    padding: 20px 45px;
+    font-size: 16px;
+}
+
+#btn2 {
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+    padding: 20px 45px;
+    font-size: 16px;
+}
+#btn1:hover{
+    background-color: rgb(70, 69, 69);
+}
+#btn2:hover{
+    color:  rgb(70, 69, 69);
+    border-color:  rgb(70, 69, 69);
+}
+.badge-base {
+    height: 200px;
+    width: 300px;
+}
